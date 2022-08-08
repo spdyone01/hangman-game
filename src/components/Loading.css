@@ -1,8 +1,53 @@
 .loading-screen {
     flex: 1;
-    align-items: stretch;
+    /* align-items: stretch; */
     display: flex;
     justify-content: center;
     align-items: center;
-    
+}
+
+.loading-screen :nth-child(1) {
+    opacity: 0%;
+    animation: fadeIn 800ms ease-in-out infinite;
+}
+.loading-screen :nth-child(2) {
+    opacity: 0%;
+    animation: fadeIn 800ms ease-in-out 50ms infinite;
+}
+.loading-screen :nth-child(3) {
+    opacity: 0%;
+    animation: fadeIn 800ms ease-in-out 100ms infinite;
+}
+.loading-screen :nth-child(4) {
+    opacity: 0%;
+    animation: fadeIn 800ms ease-in-out 150ms infinite;
+}
+.loading-screen :nth-child(5) {
+    opacity: 0%;
+    animation: fadeIn 800ms ease-in-out 200ms infinite;
+}
+.loading-screen :nth-child(6) {
+    opacity: 0%;
+    animation: fadeIn 800ms ease-in-out 250ms infinite;
+}
+.loading-screen :nth-child(7) {
+    opacity: 0%;
+    animation: fadeIn 800ms ease-in-out 300ms infinite;
+}
+.loading-screen :nth-child(8) {
+    opacity: 0%;
+    animation: fadeIn 800ms ease-in-out 350ms infinite;
+}
+.loading-screen :nth-child(9) {
+    opacity: 0%;
+    animation: fadeIn 800ms ease-in-out 400ms infinite;
+}
+.loading-screen :nth-child(10) {
+    opacity: 0%;
+    animation: fadeIn 800ms ease-in-out 450ms infinite;
+}
+@keyframes fadeIn {
+    100% {
+        opacity: 100%;
+    }
 }
