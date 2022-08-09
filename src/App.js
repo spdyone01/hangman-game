@@ -5,7 +5,6 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './styles/styles.css';
 
 // Routes
-import GameOver from './components/GameOver';
 import Menu from './components/Menu';
 import Game from './components/Game';
 
@@ -97,7 +96,6 @@ const decrementDif = () => {
               path='game'
               element={<Game words={words} difficulty={difficulty} />}
             />
-            <Route path='gameover' element={<GameOver />} />
             <Route
               path='*'
               element={

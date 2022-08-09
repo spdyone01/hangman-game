@@ -15,7 +15,7 @@ class Hangman {
       this.guessedLetters.push(guess); // If unique then add to guessed letters.
 
       if (isBadGuess) {
-        this.remainingGuesses--; // If guess doesn't match letter in word then take away a point.
+        this.remainingGuesses--; 
       }
     }
     this.checkStatus();
